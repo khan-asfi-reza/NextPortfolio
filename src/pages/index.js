@@ -20,7 +20,7 @@ const Home = () => {
     }, [])
   return(
       <>
-        <SeoHead/>
+        <SeoHead title = "Home"/>
         <Header/>
         <BodyContent>
 
