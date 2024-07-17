@@ -15,19 +15,19 @@ const WorkingExperience = [
         validity: "2022-"
     },
     {
-        title: "Jr Full-Stack Developer",
-        workplace: "Invasso LLC",
-        validity: "2020-2021"
-    },
-    {
         title: "Full Stack Software Developer",
         workplace: "Shore Capital Corporation",
         validity: "2021-2022"
     },
     {
+        title: "Jr Full-Stack Developer",
+        workplace: "Invasso LLC",
+        validity: "2020-2021"
+    },
+    {
         title: "Freelance Full Stack Developer",
-        workplace: "Upwork",
-        validity: "2021-"
+        workplace: "Upwork | Fiverr",
+        validity: "2019-2021"
     },
 ]
 
