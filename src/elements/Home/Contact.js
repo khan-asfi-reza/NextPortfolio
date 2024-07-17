@@ -17,10 +17,7 @@ const ContactLinks = () =>
             <FaMailBulk/>
         </a>
 
-        <a name={"Call Phone"} title={"Call"} href={"tel:+8801753489310"}
-           className={"h-14 w-14 text-lg grid place-items-center bg-blue-400 text-typo-dark-400"}>
-            <FaPhone/>
-        </a>
+        
 
         <a name={"LinkedIn"} title={"LinkedIn"} href={LINKEDIN} target={"_blank"}
            className={"h-14 w-14 text-lg grid place-items-center bg-blue-400 text-typo-dark-400"}>
