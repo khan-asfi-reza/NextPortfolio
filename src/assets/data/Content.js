@@ -58,38 +58,39 @@ export const HomePageObjects = [{
                                 className={HOME_PAGE_OBJECT_CLASSNAME + "lg:bottom-24 lg:right-1/4 bottom-7 right-0"}/>
 },]
 
-export const AboutPageText = "Hello there! I'm Khan Asfi Reza, a passionate Pythonista and lead backend engineer at Zelf Technologies. With a deep-rooted love for web technologies, I strive to deliver innovative, efficient, and robust solutions to complex problems. My curiosity for compilers and interpreters fuels my passion for software engineering, motivating me to explore new horizons and sharpen my skills each day."
+export const AboutPageText = "Hi, I'm Khan Asfi Reza, a dedicated Python enthusiast and the lead backend engineer at Zelf Technologies, a dynamic startup founded by a former MIT Sloan and McKinsey & Company alum. Hailing from Bangladesh, I bring a wealth of experience in backend development and DevOps, crafting innovative and reliable solutions to complex challenges. Currently, my interests are deeply rooted in the world of compilers and database implementation, driving my continuous pursuit of knowledge and skill enhancement in software engineering."
 
 
-export const ExperienceContent = [{
+
+export const ExperienceContent = [
+    {
+        "icon": Code,
+        "name": "Backend",
+        "color": "text-purple-700",
+        "border": "bg-purple-700",
+        "text": "Specialize in backend development with Django, Flask, FastAPI, Node.js, PostgreSQL, and MongoDB."
+    }, 
+    {
     "icon": Gfx,
     "name": "Frontend",
     "color": "text-green-600",
     "border": "bg-green-600",
-    "text": "I develop front-end applications using various Javascript and CSS frameworks including, React, NextJS, Svelte, Angular, Vue, Tailwind Etc. "
-
+    "text": "Proficient in front-end development using JavaScript and CSS frameworks such as React, Next.js, Svelte, Angular, Vue, and Tailwind."
 }, {
-    "icon": Code,
-    "name": "Backend",
-    "color": "text-purple-700",
-    "border": "bg-purple-700",
-    "text": "I love backend the most and develop applications using, django, flask, fastapi, node-js etc with postgresql database and mongodb"
-}, {
-    "icon": WWW,
-    "name": "Full-Stack",
-    "color": "text-red-700",
-    "border": "bg-red-700",
-    "text": "Most of the time, I develop full-stack solutions using django, react, flask, vue etc with postgresql or mysql database. "
+    "icon": CPP,  
+    "name": "Compilers & Interpreters",
+    "color": "text-blue-700",
+    "border": "bg-blue-700",
+    "text": "Currently expanding my expertise in compiler and interpreter design."
 },
 {
     "icon": Agile,
-    "name": "Dev-ops",
+    "name": "DevOps",
     "color": "text-yellow-700",
     "border": "bg-yellow-700",
-    "text": "After learning both stacks, I have engaged myself in devops work as well, which includes deployment, CI CD, testing and many more"
+    "text": "Skilled in DevOps tasks including deployment, CI/CD, and testing."
 },
 ]
-
 
 export const SkillContentList = [{
     name: "Python", logo: Python, year: 2017
